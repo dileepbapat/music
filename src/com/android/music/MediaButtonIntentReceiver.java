@@ -94,12 +94,12 @@ public class MediaButtonIntentReceiver extends BroadcastReceiver {
                 case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
                     command = MediaPlaybackService.CMDPREVIOUS;
                     break;
-                case KeyEvent.KEYCODE_MEDIA_PAUSE:
+               /* case KeyEvent.KEYCODE_MEDIA_PAUSE:
                     command = MediaPlaybackService.CMDPAUSE;
                     break;
                 case KeyEvent.KEYCODE_MEDIA_PLAY:
                     command = MediaPlaybackService.CMDPLAY;
-                    break;
+                    break;*/
             }
 
             if (command != null) {

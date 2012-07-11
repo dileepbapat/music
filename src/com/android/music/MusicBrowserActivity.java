@@ -16,6 +16,8 @@
 
 package com.android.music;
 
+import in.xiv.music.R;
+
 import com.android.music.MusicUtils.ServiceToken;
 
 import android.app.Activity;
@@ -40,12 +42,11 @@ public class MusicBrowserActivity extends Activity
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        int activeTab = MusicUtils.getIntPref(this, "activetab", R.id.artisttab);
-        if (activeTab != R.id.artisttab
-                && activeTab != R.id.albumtab
+        int activeTab = MusicUtils.getIntPref(this, "activetab", R.id.songtab);
+        if ( activeTab != R.id.albumtab
                 && activeTab != R.id.songtab
                 && activeTab != R.id.playlisttab) {
-            activeTab = R.id.artisttab;
+            activeTab = R.id.songtab;
         }
         MusicUtils.activateTab(this, activeTab);
         

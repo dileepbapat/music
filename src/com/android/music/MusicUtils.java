@@ -58,6 +58,8 @@ import android.widget.TabWidget;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import in.xiv.music.R;
+
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
@@ -1205,9 +1207,9 @@ public class MusicUtils {
     static void activateTab(Activity a, int id) {
         Intent intent = new Intent(Intent.ACTION_PICK);
         switch (id) {
-            case R.id.artisttab:
+           /* case R.id.artisttab:
                 intent.setDataAndType(Uri.EMPTY, "vnd.android.cursor.dir/artistalbum");
-                break;
+                break;*/
             case R.id.albumtab:
                 intent.setDataAndType(Uri.EMPTY, "vnd.android.cursor.dir/album");
                 break;

@@ -61,6 +61,8 @@ import android.widget.SimpleCursorTreeAdapter;
 import android.widget.TextView;
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
 
+import in.xiv.music.R;
+
 import java.text.Collator;
 
 
@@ -104,7 +106,7 @@ public class ArtistAlbumBrowserActivity extends ExpandableListActivity
         registerReceiver(mScanListener, f);
 
         setContentView(R.layout.media_picker_activity_expanding);
-        MusicUtils.updateButtonBar(this, R.id.artisttab);
+        MusicUtils.updateButtonBar(this, R.id.songtab);
         ExpandableListView lv = getExpandableListView();
         lv.setOnCreateContextMenuListener(this);
         lv.setTextFilterEnabled(true);
@@ -252,7 +254,7 @@ public class ArtistAlbumBrowserActivity extends ExpandableListActivity
         }
 
         MusicUtils.hideDatabaseError(this);
-        MusicUtils.updateButtonBar(this, R.id.artisttab);
+        MusicUtils.updateButtonBar(this, R.id.songtab);
         setTitle();
     }
 

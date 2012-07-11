@@ -53,6 +53,8 @@ import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
+import in.xiv.music.R;
+
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.PrintWriter;

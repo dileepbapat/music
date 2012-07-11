@@ -16,6 +16,8 @@
 
 package com.android.music;
 
+import in.xiv.music.R;
+
 import com.android.music.MusicUtils.ServiceToken;
 
 import android.app.Activity;

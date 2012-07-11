@@ -62,6 +62,8 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 
+import in.xiv.music.R;
+
 import java.text.Collator;
 import java.util.Arrays;
 

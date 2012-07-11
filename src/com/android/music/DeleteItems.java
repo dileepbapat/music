@@ -16,6 +16,7 @@
 
 package com.android.music;
 
+import in.xiv.music.R;
 import android.app.Activity;
 import android.media.AudioManager;
 import android.os.Bundle;

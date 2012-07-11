@@ -16,6 +16,7 @@
 
 package com.android.music;
 
+import in.xiv.music.R;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentValues;
